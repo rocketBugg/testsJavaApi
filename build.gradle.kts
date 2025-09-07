@@ -2,9 +2,6 @@ plugins {
     java
 }
 
-group = "com.example"
-version = "1.0.0"
-
 repositories {
     mavenCentral()
 }
@@ -63,7 +60,4 @@ tasks.test {
 
     maxParallelForks = Runtime.getRuntime().availableProcessors()
     failFast = false // Не останавливаться при первой ошибке
-
-    // Фильтрация тестов (опционально)
-
 }
